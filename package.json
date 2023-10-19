@@ -1,0 +1,21 @@
+{
+  "name": "complete-intro-to-react-v8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"src/**/*.{js, jsx, ts, tsx}\" --quiet",
+    "format": "prettier --write \"src/**/*.{js, jsx, ts, tsx}\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "vite": "^4.5.0"
+  }
+}
