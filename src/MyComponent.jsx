@@ -1,4 +1,4 @@
-const Pet = (props) => {
+const MyComponent = (props) => {
   return (
     <div>
       <h1>{props.name}</h1>
@@ -8,4 +8,4 @@ const Pet = (props) => {
   );
 };
 
-export default Pet;
+export default MyComponent;
